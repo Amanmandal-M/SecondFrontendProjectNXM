@@ -58,7 +58,7 @@ const dataImportDB = async (obj) => {
         document.querySelector("#Password").value = "";
         document.querySelector("#ConfirmPassword").value = "";
       },0);
-      location.pathname = "/Frontend/Views/login.html";
+      location.pathname = "/Views/login.html";
     } else {
       alert("Something Went Wrong");
     }

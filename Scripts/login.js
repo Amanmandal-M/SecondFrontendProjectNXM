@@ -45,7 +45,7 @@ const dataImportDB = async (obj) => {
             const tokenCopy = data.Token;                        //user Takes token from here
             sessionStorage.setItem("Username", name);
             sessionStorage.setItem("Token", tokenCopy);
-            location.pathname = "/Frontend/Views/app.html"
+            location.pathname = "/Views/app.html"
     } else {
       alert("Login failed");
     }
