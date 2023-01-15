@@ -1,0 +1,38 @@
+#welcome{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 0, 0);
+    border-bottom: 1px solid blue;
+    padding-bottom: 10px;
+}
+
+body{
+    background-color: black;
+}
+
+#container{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 200px;
+    width: 60%;
+}
+
+button{
+    width: 30%;
+    height: 40px;
+    font-size: 27px;
+    border-radius: 12px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(75, 236, 75);
+    width: 40%;
+    height: 80px;
+    border-radius: 30px;
+}
+
+#container>button:nth-child(2):hover{
+    background-color: crimson;
+}
