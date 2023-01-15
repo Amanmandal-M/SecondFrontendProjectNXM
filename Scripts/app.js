@@ -76,8 +76,15 @@ getButton.addEventListener("click", (e) => {
   const password = sessionStorage.getItem("Password");
 
   email == "amanmandal644@gmail.com" && password == "aman123@#"
-    ? GetProducts()
-    : alert("You are not Authorized");
+    ? 
+    (GetProducts(),
+     sessionStorage.removeItem("EmailId"),
+     sessionStorage.removeItem("Password"))
+    : 
+    (alert("You are not Authorized"),
+     sessionStorage.removeItem("EmailId"),
+     sessionStorage.removeItem("Password"));
+    ;
 });
 
 const GetProducts = async () => {
