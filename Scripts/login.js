@@ -1,4 +1,4 @@
-const BaseUrl = "https://pear-gleaming-skunk.cyclic.app" ;
+const BaseUrl = "https://secondbackendproject-production.up.railway.app" ;
 const BaseRegister = `${BaseUrl}/users`
 const LoginUrl = `${BaseRegister}/login`
 
